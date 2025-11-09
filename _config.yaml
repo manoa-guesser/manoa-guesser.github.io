@@ -1,0 +1,8 @@
+title: Manoa Guesser
+description: A Next.js application that allows users to play a fun game to test their knowledge of the University of Hawaii at Manoa campus.
+google_analytics:
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
