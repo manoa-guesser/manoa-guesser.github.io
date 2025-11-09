@@ -1,6 +1,6 @@
 # Manoa Guesser
 
-## Table of contents
+<!-- ## Table of contents
 
 * [Overview](#overview)
 * [Deployment](#deployment)
@@ -11,7 +11,7 @@
 * [Continuous Integration](#continuous-integration)
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
-* [Team](#team)
+* [Team](#team) -->
 
 
 ## Overview
