@@ -40,6 +40,9 @@ To create a campus-based guessing game that encourages exploration, connection, 
 
 (Information about where the project is hosted and how to access it will be added after deployment.)
 
+# M1 Board
+[Link](https://github.com/orgs/manoa-guesser/projects/2)
+
 ---
 
 ## User Guide
@@ -79,5 +82,7 @@ The system architecture will support:
 - **Jia Jun Li**  
 - **Joshua Chow**  
 - **Colbren Fujimoto**
+
+[Team Contract](https://docs.google.com/document/d/1WQjzh6r09rr-exfMHNruvm9btdQKU5Tv-qu1LLYoXVQ/edit?usp=sharing)
 
 ---
