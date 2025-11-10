@@ -78,10 +78,10 @@ The system architecture will support:
 
 ## Team
 
-- **Lawrence Zheng**  
-- **Jia Jun Li**  
-- **Joshua Chow**  
-- **Colbren Fujimoto**
+- [Lawrence Zheng](https://lawrencezheng5.github.io/)
+- [Jia Jun Li](https://jiajunli526.github.io/)
+- [Joshua Chow](https://zhouweijosh.github.io/)
+- [Colbren Fujimoto](https://colbren.github.io/)
 
 [Team Contract](https://docs.google.com/document/d/1WQjzh6r09rr-exfMHNruvm9btdQKU5Tv-qu1LLYoXVQ/edit?usp=sharing)
 
