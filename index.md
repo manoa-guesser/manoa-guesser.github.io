@@ -1,4 +1,5 @@
 # Manoa Guesser
+Link to the GitHub organization can be found [here](https://github.com/manoa-guesser)
 
 ## Table of contents
 
@@ -92,5 +93,4 @@ The system architecture will support:
 - [Colbren Fujimoto](https://colbren.github.io/)
 
 [Team Contract](https://docs.google.com/document/d/1WQjzh6r09rr-exfMHNruvm9btdQKU5Tv-qu1LLYoXVQ/edit?usp=sharing)
-
 ---
