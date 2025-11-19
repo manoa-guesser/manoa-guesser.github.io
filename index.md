@@ -1,17 +1,15 @@
 # Manoa Guesser
 
-<!-- ## Table of contents
+## Table of contents
 
 * [Overview](#overview)
 * [Deployment](#deployment)
-* [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
-* [Developer Guide](#developer-guide)
-* [Development History](#development-history)
-* [Continuous Integration](#continuous-integration)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
-* [Team](#team) -->
+<!-- * [Community Feedback](#community-feedback) -->
+<!-- * [Developer Guide](#developer-guide) -->
+<!-- * [Continuous Integration](#continuous-integration) -->
+<!-- * [Walkthrough videos](#walkthrough-videos)
+* [Example enhancements](#example-enhancements) -->
+* [Team](#team)
 
 
 ## Overview
@@ -39,27 +37,37 @@ To create a campus-based guessing game that encourages exploration, connection, 
 ## Deployment
 
 (Information about where the project is hosted and how to access it will be added after deployment.)
+The project was deployed using Vercel and can be found at this [link](https://manoa-guesser.vercel.app/)
 
 # M1 Board
 [Link](https://github.com/orgs/manoa-guesser/projects/2)
 
+# M2 Board
+[Link](https://github.com/orgs/manoa-guesser/projects/4)
 ---
 
-## User Guide
 
 ### Planned Mockup Pages
 Below are the planned mockups that will serve as the foundation for the app’s interface:
 
 1. **Landing Page** – Welcomes users and introduces the app.
-2. **Game Page** – Displays random campus photos for users to guess the location.
-3. **Leaderboard Page** – Shows top players and their scores.
-4. **User Submission Page** – Allows players to upload campus photos for inclusion in the game.
-5. **Admin Dashboard** – Lets admins review, approve, or reject submitted photos.
+<img src='public/M1-Landing-Page.png'>
+2. **Sign in Page** - 
+<img src='public/M1-Sign-In.png'>
+3. **Sign up Page** - 
+<img src='public/M1-Sign up.png'>
+4. **Home Page** - 
+<img src='public/M1-Homepage.png'>
+5. **Game Page** – Displays random campus photos for users to guess the location.
+<img src='public/M1-Game-Page.png'>
+6. **Leaderboard Page** - 
+<img src='public/M1-Leaderboard.png'>
+7. **Submission Page** - 
+<img src='public/M1-Submission.png'>
 
-(Screenshots of mockup pages will be added once UI design is complete.)
 
 ---
-
+<!-- 
 ## Community Feedback
 
 Future stages of the project will include gathering feedback from UH Mānoa students and faculty to improve gameplay balance, usability, and engagement.
@@ -74,7 +82,7 @@ The system architecture will support:
 - Integration with campus maps for accurate geolocation scoring.
 - A clean, responsive UI that aligns with UH Mānoa’s design identity.
 
----
+--- -->
 
 ## Team
 
