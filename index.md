@@ -7,8 +7,8 @@
 <!-- * [Community Feedback](#community-feedback) -->
 <!-- * [Developer Guide](#developer-guide) -->
 <!-- * [Continuous Integration](#continuous-integration) -->
-<!-- * [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements) -->
+<!-- * [Walkthrough videos](#walkthrough-videos) -->
+<!-- * [Example enhancements](#example-enhancements)  -->
 * [Team](#team)
 
 
@@ -36,7 +36,6 @@ To create a campus-based guessing game that encourages exploration, connection, 
 
 ## Deployment
 
-(Information about where the project is hosted and how to access it will be added after deployment.)
 The project was deployed using Vercel and can be found at this [link](https://manoa-guesser.vercel.app/)
 
 # M1 Board
@@ -44,25 +43,26 @@ The project was deployed using Vercel and can be found at this [link](https://ma
 
 # M2 Board
 [Link](https://github.com/orgs/manoa-guesser/projects/4)
+
 ---
 
 
 ### Planned Mockup Pages
 Below are the planned mockups that will serve as the foundation for the app’s interface:
 
-1. **Landing Page** – Welcomes users and introduces the app.
+1. **Landing Page** – Welcomes users and introduces the app’s purpose, providing a simple entry point for new and returning players.
 <img src='public/M1-Landing-Page.png'>
-2. **Sign in Page** - 
+2. **Sign in Page** - Allows existing users to securely log into their accounts to access gameplay, submissions, and leaderboards.
 <img src='public/M1-Sign-In.png'>
-3. **Sign up Page** - 
+3. **Sign up Page** - Enables new users to register by creating an account, helping personalize their scores and participation.
 <img src='public/M1-Sign up.png'>
-4. **Home Page** - 
+4. **Home Page** - Serves as the main hub, giving users quick access to start the game, view leaderboards, or submit photos.
 <img src='public/M1-Homepage.png'>
 5. **Game Page** – Displays random campus photos for users to guess the location.
 <img src='public/M1-Game-Page.png'>
-6. **Leaderboard Page** - 
+6. **Leaderboard Page** - Displays top players and their high scores that can be sorted.
 <img src='public/M1-Leaderboard.png'>
-7. **Submission Page** - 
+7. **Submission Page** - Lets users upload their own campus images for potential inclusion in the game, pending admin approval.
 <img src='public/M1-Submission.png'>
 
 
