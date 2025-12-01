@@ -6,8 +6,7 @@ Link to the GitHub organization can be found [here](https://github.com/manoa-gue
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-<!-- * [Community Feedback](#community-feedback) -->
-<!-- * [Developer Guide](#developer-guide) -->
+* [Developer Guide](#developer-guide)
 <!-- * [Continuous Integration](#continuous-integration) -->
 <!-- * [Walkthrough videos](#walkthrough-videos) -->
 <!-- * [Example enhancements](#example-enhancements)  -->
@@ -145,24 +144,186 @@ If the Admin Dashboard is enabled for your role:
 <img src='public/M2-Admin-Edit.png'>
 ---
 
+## Developer Guide
 
-
-<!-- 
-## Community Feedback
-
-Future stages of the project will include gathering feedback from UH Mānoa students and faculty to improve gameplay balance, usability, and engagement.
+This section describes how to set up the development environment for Manoa Guesser, including cloning the project, installing dependencies, configuring environment variables, and running the application locally. This guide is intended for developers contributing to the project.
 
 ---
 
-## Developer Guide
+### 1. Prerequisites
 
-Manoa Guesser is being developed using **Next.js**, **TypeScript**, and **Prisma** for the backend, with a **PostgreSQL** database to store user accounts, photos, and scores.  
-The system architecture will support:
-- User authentication and role-based access control.
-- Integration with campus maps for accurate geolocation scoring.
-- A clean, responsive UI that aligns with UH Mānoa’s design identity.
+Before starting development, ensure you have the following installed:
 
---- -->
+- **Node.js (v18 or later)**  
+- **npm** (comes with Node.js)  
+- **Git**  
+- **A code editor** such as VS Code
+
+---
+
+### 2. Clone the Repository
+
+Use Git to clone the project into your local workspace:
+
+```bash
+git clone https://github.com/manoa-guesser/manoa-guesser.git
+cd manoa-guesser
+```
+
+---
+
+### 3. Install Dependencies
+
+Install all required Node.js packages:
+
+```bash
+npm install
+```
+
+This will install Next.js, Prisma, React, Playwright, and all other project dependencies.
+
+---
+
+### 4. Environment Variables
+
+This project requires a `.env` file containing secrets for:
+
+- NextAuth configuration  
+- Database connection (Supabase / PostgreSQL)  
+- Prisma  
+- Session keys  
+- Any additional runtime tokens
+
+To obtain the correct environment file:
+
+> **Contact Colbren** for the official `.env` file used in development.
+
+Once received, save it as:
+
+```
+.env
+```
+
+in the project root directory.
+
+---
+
+### 5. Database Setup (If Required)
+
+If you modify the Prisma schema or need to initialize the local development database:
+
+```bash
+npx prisma generate
+npx prisma db push
+```
+
+You may skip this step if your `.env` points to a hosted database.
+
+---
+
+### 6. Running the Development Server
+
+Start the Next.js dev environment:
+
+```bash
+npm run dev
+```
+
+Then open the app in your browser at:
+
+```
+http://localhost:3000
+```
+
+The site will automatically reload when you edit source files.
+
+---
+
+### 7. Running ESLint
+
+To check for linting issues:
+
+```bash
+npm run lint
+```
+
+Fix any warnings or errors before committing.
+
+---
+
+### 8. Running Playwright Tests
+
+Playwright tests verify game functionality, authentication, and UI behavior.
+
+Install browsers (first time only):
+
+```bash
+npx playwright install --with-deps
+```
+
+Run all tests:
+
+```bash
+npx playwright test
+```
+
+---
+
+### 9. Project Structure
+
+A brief overview of the repository layout:
+
+```
+/app              – Next.js App Router pages
+/components       – Reusable UI components
+/lib              – Prisma client and utility libraries
+/prisma           – Schema and migrations
+/public           – Static assets and images
+/tests            – Playwright test suite
+```
+
+---
+
+### 10. Continuous Integration
+
+All commits to `main` or `master` automatically trigger:
+
+- ESLint checks  
+- Playwright test suite  
+- Build verification  
+
+This is done through GitHub Actions (see `.github/workflows/ci.yml`).
+
+Developers should ensure that all CI checks pass before merging pull requests.
+
+---
+
+### 11. Contribution Workflow
+
+Typical development flow:
+
+1. Create a feature branch  
+2. Implement changes  
+3. Run `npm run lint` and `npx playwright test`  
+4. Commit and push your branch  
+5. Open a pull request  
+6. Ensure CI passes  
+7. Request review from team members  
+
+---
+
+### 12. Support
+
+For access issues, environment configuration, or database permissions:
+
+- Ask **Colbren** for `.env` access  
+- Contact the team using GitHub Discussions or Group Chat  
+
+---
+
+This completes the Developer Guide for Manoa Guesser.
+
+--- 
 
 ## Team
 
