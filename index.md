@@ -47,6 +47,7 @@ The project was deployed using Vercel and can be found at this [link](https://ma
 
 # M3 Board
 [Link](https://github.com/orgs/manoa-guesser/projects/8)
+
 ---
 
 
@@ -102,7 +103,6 @@ Current functionality includes:
 - Allowing the user to guess a location using the interactive map.
 - Showing game results (score, accuracy) once a guess is submitted.
 
-**Screenshot:**  
 <img src="public/M2-Game-Page.png">
 
 ### Leaderboard Page
@@ -116,7 +116,6 @@ Users can:
 
 Scores automatically update based on gameplay results.
 
-**Screenshot:**  
 <img src="public/M2-Leaderboard.png">
 
 ### Submission Page
@@ -130,7 +129,6 @@ Users can:
 
 Once reviewed, approved images may appear in the gameplay rotation. (WIP)
 
-**Screenshot:**  
 <img src="public/M2-Submission.png">
 
 
@@ -148,7 +146,7 @@ If the Admin Dashboard is enabled for your role:
 ---
 
 
----
+
 <!-- 
 ## Community Feedback
 
