@@ -45,6 +45,8 @@ The project was deployed using Vercel and can be found at this [link](https://ma
 # M2 Board
 [Link](https://github.com/orgs/manoa-guesser/projects/4)
 
+# M3 Board
+[Link](https://github.com/orgs/manoa-guesser/projects/8)
 ---
 
 
