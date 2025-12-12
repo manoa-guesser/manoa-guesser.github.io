@@ -64,7 +64,7 @@ The landing page introduces the app and provides navigation to sign in, sign up,
 - Users can view the project purpose.
 - Users can navigate to authentication pages to begin playing.
 
-<img src='public/M2-Landing-Page.png'>
+<img src='public/M3-Landing-Page.png'>
 
 ### Sign In Page
 
@@ -73,7 +73,7 @@ The Sign In page allows existing users to log into their accounts using their re
 - Users enter credentials to access gameplay, the leaderboard, and submission features.
 - Authentication is handled securely using NextAuth.
 
-<img src="public/M2-Sign-In.png">
+<img src="public/M3-Sign-In.png">
 
 ### Sign Up Page
 
@@ -82,7 +82,7 @@ The Sign Up page enables new users to create an account.
 - Users provide an email, password, and other required fields.
 - Once registered, they can immediately log in and begin playing.
 
-<img src="public/M2-Sign-up.png">
+<img src="public/M3-Sign-up.png">
 
 ### Home Page
 
@@ -95,7 +95,7 @@ Users can:
 - Navigate to other parts of the system.
 
 **Screenshot:**  
-<img src="public/M2-Homepage.png">
+<img src="public/M3-Homepage.png">
 
 ### Game Page
 
@@ -104,9 +104,10 @@ The Game Page is where gameplay occurs.
 Current functionality includes:
 - Displaying a campus image for the user to identify.
 - Allowing the user to guess a location using the interactive map.
-- Showing game results (score, accuracy) once a guess is submitted.
+- Showing game results (score) once a guess is submitted.
+- Hint button for users that need some help.
 
-<img src="public/M2-Game-Page.png">
+<img src="public/M3-Game-Page.png">
 
 ### Leaderboard Page
 
@@ -119,7 +120,7 @@ Users can:
 
 Scores automatically update based on gameplay results.
 
-<img src="public/M2-Leaderboard.png">
+<img src="public/M3-Leaderboard.png">
 
 ### Submission Page
 
@@ -132,7 +133,7 @@ Users can:
 
 Once reviewed, approved images may appear in the gameplay rotation. (WIP)
 
-<img src="public/M2-Submission.png">
+<img src="public/M3-Submission.png">
 
 
 ### Admin Dashboard 
@@ -142,10 +143,10 @@ If the Admin Dashboard is enabled for your role:
 - Admins can approve or reject images.
 - Approved images become available for gameplay.
 
-<img src='public/M2-Admin-1.png'>
-<img src='public/M2-Admin-2.png'>
+<img src='public/M3-Admin-1.png'>
+<img src='public/M3-Admin-2.png'>
 
-<img src='public/M2-Admin-Edit.png'>
+<img src='public/M3-Admin-Edit.png'>
 ---
 ## Community Feedback 
 
@@ -329,8 +330,17 @@ For access issues, environment configuration, or database permissions:
 This completes the Developer Guide for Manoa Guesser.
 
 --- 
-### 12. Support
 
+### 12. Community Feedback
+Overall, community feedback showed that users were interested in the concept and found the idea engaging, but many felt that the execution could be improved. Several users mentioned that they enjoyed the premise of guessing locations and thought it was a cool concept, even if some parts of the experience felt unfinished. This suggests that the core idea was appealing and worth building on.
+
+On the usability side, a common concern was not being able to see the actual location after submitting a guess, which made the round feel incomplete. Some users also experienced layout issues when the app was not in full-screen mode, and others pointed out that the mobile experience was not as smooth as expected. These issues made the application feel less polished, especially on smaller screens.
+
+In terms of features, the leaderboard received mixed feedback. While users liked having a competitive element, several felt that the leaderboard itself could be improved or made more informative. Content-wise, some users wished there were more locations available, while others felt that certain locations were a bit niche, limiting replayability.
+
+Overall, the feedback highlighted that while the idea and core gameplay were well received, improvements to usability, layout consistency, and feature refinement would significantly improve the overall user experience.
+
+---
 
 ## Team
 
