@@ -150,6 +150,15 @@ If the Admin Dashboard is enabled for your role:
 ---
 ## Community Feedback 
 
+Overall, community feedback showed that users were interested in the concept and found the idea engaging, but many felt that the execution could be improved. Several users mentioned that they enjoyed the premise of guessing locations and thought it was a cool concept, even if some parts of the experience felt unfinished. This suggests that the core idea was appealing and worth building on.
+
+On the usability side, a common concern was not being able to see the actual location after submitting a guess, which made the round feel incomplete. Some users also experienced layout issues when the app was not in full-screen mode, and others pointed out that the mobile experience was not as smooth as expected. A few users also felt that the round timer was a little too fast, making it difficult to fully analyze the image before submitting a guess. These issues made the application feel less polished, especially on smaller screens.
+
+In terms of features, the leaderboard received mixed feedback. While users liked having a competitive element, several felt that the leaderboard itself could be improved or made more informative. Content-wise, some users wished there were more locations available, while others felt that certain locations were a bit niche, limiting replayability.
+
+Overall, the feedback highlighted that while the idea and core gameplay were well received, improvements to usability, layout consistency, pacing, and feature refinement would significantly improve the overall user experience.
+
+---
 ## Developer Guide
 
 This section describes how to set up the development environment for Manoa Guesser, including cloning the project, installing dependencies, configuring environment variables, and running the application locally. This guide is intended for developers contributing to the project.
@@ -330,17 +339,6 @@ For access issues, environment configuration, or database permissions:
 This completes the Developer Guide for Manoa Guesser.
 
 --- 
-
-### 12. Community Feedback
-Overall, community feedback showed that users were interested in the concept and found the idea engaging, but many felt that the execution could be improved. Several users mentioned that they enjoyed the premise of guessing locations and thought it was a cool concept, even if some parts of the experience felt unfinished. This suggests that the core idea was appealing and worth building on.
-
-On the usability side, a common concern was not being able to see the actual location after submitting a guess, which made the round feel incomplete. Some users also experienced layout issues when the app was not in full-screen mode, and others pointed out that the mobile experience was not as smooth as expected. These issues made the application feel less polished, especially on smaller screens.
-
-In terms of features, the leaderboard received mixed feedback. While users liked having a competitive element, several felt that the leaderboard itself could be improved or made more informative. Content-wise, some users wished there were more locations available, while others felt that certain locations were a bit niche, limiting replayability.
-
-Overall, the feedback highlighted that while the idea and core gameplay were well received, improvements to usability, layout consistency, and feature refinement would significantly improve the overall user experience.
-
----
 
 ## Team
 
