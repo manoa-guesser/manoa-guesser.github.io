@@ -1,11 +1,15 @@
 # Manoa Guesser
 Link to the GitHub organization can be found [here](https://github.com/manoa-guesser)
 
+[![ESLint](https://github.com/manoa-guesser/manoa-guesser/actions/workflows/eslint.yml/badge.svg)](https://github.com/manoa-guesser/manoa-guesser/actions/workflows/eslint.yml)
+[![Playwright Tests](https://github.com/manoa-guesser/manoa-guesser/actions/workflows/playwright.yml/badge.svg)](https://github.com/manoa-guesser/manoa-guesser/actions/workflows/playwright.yml)
+
 ## Table of contents
 
 * [Overview](#overview)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
+* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 <!-- * [Continuous Integration](#continuous-integration) -->
 <!-- * [Walkthrough videos](#walkthrough-videos) -->
@@ -143,6 +147,7 @@ If the Admin Dashboard is enabled for your role:
 
 <img src='public/M2-Admin-Edit.png'>
 ---
+## Community Feedback 
 
 ## Developer Guide
 
@@ -324,6 +329,8 @@ For access issues, environment configuration, or database permissions:
 This completes the Developer Guide for Manoa Guesser.
 
 --- 
+### 12. Support
+
 
 ## Team
 
